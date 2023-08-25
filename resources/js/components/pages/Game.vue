@@ -21,19 +21,6 @@
             </div>
          </div>
       </div>
-      <div class="uk-section uk-section-default uk-padding-remove uk-padding-remove-top">
-         <div class="uk-container-expand">
-            <div
-               class="uk-width-xlarge uk-margin-auto uk-text-center ">
-               <ul uk-tab class="uk-flex-center wi-parity-tab">
-                  <li class="uk-active"><router-link to="/">Parity</router-link></li>
-                  <li><router-link to="/quater">Ending</router-link></li>
-                  <li><a href="#">Forecast</a></li>
-                  <li><a href="#">Spin & Wheel</a></li>
-               </ul>
-            </div>
-         </div>
-      </div>
         <router-view/>
    </div>
 </template>
@@ -70,9 +57,9 @@
                    gameResult: []
                },
                resultModal: false,
-               readRuleModal: false, 
+               readRuleModal: false,
                data: {
-                  walletBal: '',                                                                                                                                          
+                  walletBal: '',
                   title: '',
                   isAdding: false,
                   modal: false,

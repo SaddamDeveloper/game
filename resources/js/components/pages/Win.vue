@@ -75,38 +75,6 @@
                         >
                             Join Blue
                         </button>
-                        <button
-                            class="uk-button uk-border-rounded"
-                            style="background: #00ff0a; color: #333"
-                            @click="
-                                addModal(
-                                    14,
-                                    'Join Green',
-                                    'background:#00ff0a;color:#333'
-                                )
-                            "
-                            size="large"
-                            :loading="data.loading"
-                            :disabled="disabled"
-                        >
-                            Join Green
-                        </button>
-                        <button
-                            class="uk-button uk-border-rounded"
-                            style="background: #9c27b0"
-                            @click="
-                                addModal(
-                                    15,
-                                    'Join Purple',
-                                    'background:#9c27b0'
-                                )
-                            "
-                            size="large"
-                            :loading="data.loading"
-                            :disabled="disabled"
-                        >
-                            Join Purple
-                        </button>
                     </p>
                 </div>
             </div>
